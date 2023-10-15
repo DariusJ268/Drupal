@@ -1,7 +1,7 @@
 fuel_calculator.calculator:
 path: '/calculator'
 defaults:
-  _controller: '\Drupal\fuel_calculator\Controller\calculator::content'
+  _controller: 'Drupal\fuel_calculator\Controller\CalculatorController::view'
   _title: 'Fuel Calculator'
 requirements:
   _permission: 'access content'
